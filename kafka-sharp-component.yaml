@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kafka-sharp
+  description: C# driver for Kafka
+  tags:
+    - csharp
+  annotations:
+    github.com/project-slug: criteo/kafka-sharp
+spec:
+  type: library
+  lifecycle: production
+  owner: webscalepr@criteo.com
